@@ -3,7 +3,7 @@ module k8s.io/minikube
 go 1.15
 
 require (
-	cloud.google.com/go/storage v1.10.0
+	cloud.google.com/go/storage v1.13.0
 	contrib.go.opencensus.io/exporter/stackdriver v0.12.1
 	github.com/Azure/azure-sdk-for-go v42.3.0+incompatible
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/trace v0.16.0
@@ -85,12 +85,12 @@ require (
 	golang.org/x/build v0.0.0-20190927031335-2835ba2e683f
 	golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0
 	golang.org/x/exp v0.0.0-20200224162631-6cc2880d07d6
-	golang.org/x/mod v0.3.0
-	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
+	golang.org/x/mod v0.4.1
+	golang.org/x/oauth2 v0.0.0-20210113205817-d3ed898aa8a3
 	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
-	golang.org/x/sys v0.0.0-20201201145000-ef89a241ccb3
-	golang.org/x/text v0.3.3
-	google.golang.org/api v0.29.0
+	golang.org/x/sys v0.0.0-20210124154548-22da62e12c0c
+	golang.org/x/text v0.3.4
+	google.golang.org/api v0.38.0
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 // indirect
 	gopkg.in/yaml.v2 v2.3.0
 	gotest.tools/v3 v3.0.2 // indirect
